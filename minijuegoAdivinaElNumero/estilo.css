@@ -1,0 +1,10 @@
+#estilo {
+    border: 1px solid;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
