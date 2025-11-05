@@ -1,0 +1,24 @@
+.celula{
+    width: 8px;
+    height: 8px;
+    flex: 1;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fila{
+    display: flex;
+    
+}
+.univers{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.celula.viva {
+    background-color: lightblue;
+}
+.celula.muerta {
+    background-color: black;
+}
