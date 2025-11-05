@@ -1,0 +1,18 @@
+.fila-matriz {
+    display: flex;
+}
+
+.box-matriz {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.enemigo {
+    color: red;
+    font-size: 24px;
+}
