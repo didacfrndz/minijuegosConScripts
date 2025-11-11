@@ -1,0 +1,103 @@
+
+body {
+    background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quiz-header h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #3b0764;
+    font-size: 3rem;
+    text-shadow: 1px 2px 8px #bdbdbd;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.quiz-main {
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(60, 60, 120, 0.13);
+    padding: 32px 24px 24px 24px;
+    margin-bottom: 40px;
+}
+
+.panel-controles {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.btn-lanzar {
+    border-radius: 12px;
+    width: 120px;
+    padding: 12px 0;
+    background: linear-gradient(90deg, #6366f1 60%, #818cf8 100%);
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    box-shadow: 0 2px 8px #c7d2fe;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+}
+.btn-lanzar:hover {
+    background: linear-gradient(90deg, #818cf8 60%, #6366f1 100%);
+    transform: scale(1.05);
+}
+.btn-lanzar.rojo {
+    background: linear-gradient(90deg, #ef4444 60%, #f87171 100%);
+    color: #fff;
+}
+
+.panel-dado {
+    border: 2px solid #6366f1;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    background: #e0e7ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3730a3;
+    box-shadow: 0 1px 4px #c7d2fe;
+}
+.panel-dado p {
+    margin: 0;
+}
+
+.panel-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+.texto-pregunta {
+    font-size: 1.3rem;
+    color: #312e81;
+    margin-bottom: 8px;
+    min-height: 40px;
+    text-align: center;
+}
+.texto-posicion {
+    font-size: 1.1rem;
+    color: #52525b;
+}
+.texto-fin {
+    font-size: 2.2rem;
+    color: #059669;
+    margin-top: 18px;
+    text-shadow: 1px 2px 8px #bbf7d0;
+}
